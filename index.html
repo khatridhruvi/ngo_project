@@ -6,41 +6,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Mega Menu | CodingNepal</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
 
-    <!-- Header section end -->
-    <header>
-        <nav>
+    <!--HEADER PART STRARTING  -->
+    <nav>
+        <div class="wrapper">
             <div class="logo">
                 <a href="#"><img src="image/My project-1 (1).png" style="width: 280px; height: 125px; margin-top: 30px; margin-left: -50px; "></a>
             </div>
-            <input type="checkbox" id="click">
-            <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <!-- <input type="radio" name="slider" id="menu-btn">
-            <input type="radio" name="slider" id="close-btn"> -->
-            <ul>
-                <!-- <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label> -->
-                <li><a class="active" href="#">Home</a></li>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Gallary</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Achivements</a></li>
                 <li><a href="#">About us</a></li>
-                <li> <a href="#" class="desktop-item">Registration</a></li>
-
-                <label for="showDrop" class="mobile-item">Registration</label>
-                <ul class="drop-menu">
-                    <li><a href="#">As a vounteer</a></li>
-                    <li><a href="#">As a Writer</a></li>
-                    <li><a href="#">As a Candidates</a></li>
-                </ul>
-                <li><a href="#">Contact us </a></li>
+                <li>
+                    <a href="#" class="desktop-item">Registration</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Registration</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">As a vounteer</a></li>
+                        <li><a href="#">As a Writer</a></li>
+                        <li><a href="#">As a Candidates</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <li><a href="#">Contact us </a></li>
             </ul>
+
             <div class="logo_1">
                 <div class="ic">
                     <div class="tooltip">Login</div>
@@ -49,15 +49,19 @@
                 </div>
             </div>
 
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav><br>
 
+    <!-- HEADER PART ENDING -->
 
-            <!-- <label for="menu-btn " class="btn menu-btn "><i class="fas fa-bars "></i></label> -->
-        </nav>
-    </header>
-    <!-- Header section Start -->
+    <div class="body-text">
+        <div class="title">Responsive Dropdown and Mega Menu</div>
+        <div class="sub-title">using only HTML & CSS</div>
+    </div><br><br><br><br>
+    <p style="color: black; font-size: 20px; margin-top: 500px;">my name is khatri dhruvi</p><br><br>
 
-
-    <!-- Footer section start  -->
+    <!-- FOOTER PART ENDING -->
 
     <footer>
         <div class="main-content ">
@@ -123,13 +127,13 @@
         </div>
         <div class="bottom ">
             <center>
-                <span class="credit ">Created By <a href="https://www.codingnepalweb.com ">CodingNepal</a> | </span>
-                <span class="far fa-copyright "></span><span> 2020 All rights reserved.</span>
+                <span class="far fa-copyright " style="color: white;"></span><span style="color: white;">  Copyright 2023, All rights reserved by unify and unify foundation.</span>
             </center>
         </div>
     </footer>
 
-    <!-- Footer section End -->
+    <!-- FOOTER PART ENDING -->
+
 </body>
 
 </html>
