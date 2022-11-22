@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NGO Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body style="background-color: rgb(168, 166, 167);">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 form">
+                <div class="login-f">
+                    <h1 class="text-center text-success">LOGIN</h1>
+                </div>
+                <br/>
+                <div class="col-sm-12">
+
+                    <ul class="nav nav-pills">
+
+                        <li class="col-sm-3" style="margin-left: 70px;"><a class="btn btn-lg btn-primary" data-toggle="tab" href="#home">Volunteer</a></li>
+
+                        <li class="col-sm-3"><a class="btn btn-lg btn-primary" data-toggle="tab" href="#menu1">Candidate</a></li>
+
+                        <li class="col-sm-3"><a class="btn btn-lg btn-primary" data-toggle="tab" href="#menu2">Writer</a></li>
+
+                    </ul>
+
+                    <br/>
+
+
+                    <div class="tab-content">
+
+                        <!-- For Volunteer -->
+                        <div id="home" class="tab-pane fade in active">
+
+                            <form action="#">
+
+                                <div class="container-sm col-sm-8" style="border: 1px solid black; margin-left: 105px; margin-top: 10px; padding: 15px; background: transparent;">
+                                    <h2 class="text-center" style=" color:rgb(105, 49, 109); font-weight: bold;margin-top: 5px;">Volunteer Login Form</h2>
+                                    <div class="form-group">
+                                        <label for="email" class="from-label" style="padding-top: 10px;">Email ID :</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="pwd" class="from-label">Password:</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter your passworf"><br>
+                                    </div>
+                                    <button type="submit" class=" pull-right btn-link"><a href="#">Forget password <span>?</span></a></button>
+
+                                    <button type="submit" class="btn btn-info col-sm-3">Submit</button>
+                                    <button type="submit" class="btn btn-info col-sm-3" style="margin-left: 10px;">Cancel</button><br>
+                                    <br><br>
+                                    <h6 class="text-center">Are you New ? | <button type="submit" class="btn-link"><a href="volunteer_reg.html">Register</a></button></h6>
+                                </div>
+                            </form>
+                            <br/>
+
+                        </div>
+
+                        <div id="menu1" class="tab-pane fade">
+
+                            <!-- For Candidate -->
+                            <form action="#">
+
+                                <div class="container-sm col-sm-8" style="border: 1px solid black; margin-left: 105px; margin-top: 10px; padding: 15px; background: transparent;">
+                                    <h2 class="text-center" style=" color:rgb(105, 49, 109); font-weight: bold;margin-top: 5px;">Candidate Login Form</h2>
+                                    <div class="form-group">
+                                        <label for="email" class="from-label" style="padding-top: 10px;">Email ID :</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="pwd" class="from-label">Password:</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter your passworf"><br>
+                                    </div>
+                                    <button type="submit" class=" pull-right btn-link"><a href="#">Forget password <span>?</span></a></button>
+
+                                    <button type="submit" class="btn btn-info col-sm-3">Submit</button>
+                                    <button type="submit" class="btn btn-info col-sm-3" style="margin-left: 10px;">Cancel</button><br>
+                                    <br><br>
+                                    <h6 class="text-center">Are you New ? | <button type="submit" class="btn-link"><a href="candidate_reg.html">Register</a></button></h6>
+                                </div>
+                            </form>
+                            <br/>
+                        </div>
+
+                        <div id="menu2" class="tab-pane fade">
+
+                            <!-- For Writer -->
+
+                            <form action="#">
+
+                                <div class="container-sm col-sm-8" style="border: 1px solid black; margin-left: 105px; margin-top: 10px; padding: 15px; background: transparent;">
+                                    <h2 class="text-center" style=" color:rgb(105, 49, 109); font-weight: bold;margin-top: 5px;">Writer Login Form</h2>
+                                    <div class="form-group">
+                                        <label for="email" class="from-label" style="padding-top: 10px;">Email ID :</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="pwd" class="from-label">Password:</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter your passworf"><br>
+                                    </div>
+                                    <button type="submit" class=" pull-right btn-link"><a href="#">Forget password <span>?</span></a></button>
+
+                                    <button type="submit" class="btn btn-info col-sm-3">Submit</button>
+                                    <button type="submit" class="btn btn-info col-sm-3" style="margin-left: 10px;">Cancel</button><br>
+                                    <br><br>
+                                    <h6 class="text-center">Are you New ? | <button type="submit" class="btn-link"><a href="Writer_reg.html">Register</a></button></h6>
+                                </div>
+                            </form>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -10,9 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-
-/* HEADER PART CSS STARTING */
-
 nav {
     position: fixed;
     z-index: 99;
@@ -165,9 +162,6 @@ nav .wrapper {
     pointer-events: auto;
 }
 
-
-/* HEADER PART CSS RESPONSIVE WEBSITE CODE */
-
 @media screen and (max-width: 970px) {
     .wrapper .btn {
         display: block;
@@ -258,9 +252,6 @@ nav input {
     display: none;
 }
 
-
-/* HEADER PART ENDING CSS */
-
 .body-text {
     position: absolute;
     top: 50%;
@@ -277,7 +268,7 @@ nav input {
 }
 
 
-/* FOOTER PART STARTING CSS  */
+/* for footer  */
 
 footer {
     position: relative;
@@ -423,9 +414,6 @@ footer {
     text-decoration: underline;
 }
 
-
-/* FOOTER PART CSS RESPONSIVE WEBSITE CODE */
-
 @media screen and (max-width: 768px) {
     footer {
         position: relative;
@@ -450,4 +438,57 @@ footer {
 }
 
 
-/* FOOTER PART ENDING */
+/* REGISTRATION FORM CSS */
+
+label {
+    font-weight: 600;
+    color: rgb(50, 49, 49);
+}
+
+#reg {
+    color: rgb(6, 6, 6);
+    font-family: 'Times New Roman';
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+header {
+    margin-left: -12px;
+    margin-right: -12px;
+    border-radius: 5px;
+    height: 90px;
+    background-color: #c9909a;
+}
+
+
+/* END THE REGISTRATION FORM CSS */
+
+
+/* START LOGIN FORM CSS */
+
+.login-f {
+    background-color: #c9909a;
+    padding: 2px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.login-f h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.form {
+    margin-left: 350px;
+    background-color: #faf7f7;
+    margin-top: 30px;
+    height: 560px;
+    border-radius: 30px;
+    padding: 5px;
+    border: 2px solid rgb(199, 195, 195);
+}
